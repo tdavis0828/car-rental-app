@@ -1,7 +1,11 @@
+import Home from '../src/pages/Home';
+import GlobalStyles from './styles/GlobalStyles';
+
 function App() {
   return (
     <div className="App">
-      <p>App.</p>
+      <GlobalStyles />
+      <Home />
     </div>
   );
 }
